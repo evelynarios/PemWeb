@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #8d9ac2;
+}
+
+.kelas {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.page {
+  padding: 20px;
+}
+
+/* Profile Styles */
+.profile-info {
+  display: flex;
+  align-items: center;
+}
+
+.profile-picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.profile-info h1 {
+  font-size: 24px;
+  margin: 0;
+  color: #333;
+}
+
+/* Dashboard Styles */
+.dashboard {
+  background-color: #ff69b4;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.menu-item {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 10px;
+  transition: color 0.3s;
+}
+
+.menu-item:hover {
+  color: #ff1493;
+}
+
+/* Content Styles */
+.content {
+  margin-bottom: 30px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+p {
+  color: #666;
+}
+
+/* Social Media Styles */
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon {
+  font-size: 24px;
+  color: #ff69b4;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.social-icon:hover {
+  color: #ff1493;
+}
+
+/* Skill Styles */
+.keahlian {
+  margin-bottom: 20px;
+}
+
+.skill-bar {
+  height: 20px;
+  background-color: #eee;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.skill-value {
+  height: 100%;
+  border-radius: 10px;
+}
+
+.coding .skill-value {
+  width: 80%;
+  background-color: #ff69b4;
+}
